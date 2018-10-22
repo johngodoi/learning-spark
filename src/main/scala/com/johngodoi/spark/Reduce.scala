@@ -2,13 +2,9 @@ package com.johngodoi.spark
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by jgodoi on 5/11/2017.
-  */
-object TextFile extends App {
+object Reduce extends App {
+
   val conf = new SparkConf().setAppName("initial").setMaster("local")
   val sc = new SparkContext(conf)
-  val file = sc.textFile("build.sbt")
-  println(file.count())
-  sc.stop()
+  sc.parallelize(List(0,1,2,3,4,5,6,7,8,9)).reduce((x,y)=>x+y)
 }
