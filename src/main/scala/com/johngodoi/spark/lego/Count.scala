@@ -13,4 +13,5 @@ object Count extends App {
   private val parentDF = themesDF.map(r => r.getAs[String]("parent_id")).distinct()
   parentDF.show()
   println(parentDF.count())
+  sparkSession.stop()
 }
