@@ -3,7 +3,7 @@ package com.johngodoi.spark
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Math extends App {
+object Statistics extends App {
 
   val conf = new SparkConf().setAppName("initial").setMaster("local")
   val sc = new SparkContext(conf)
@@ -25,18 +25,3 @@ object Math extends App {
 
   sc.stop()
 }
-
-/*
-foreach​
-isEmpty
-count​
-
-reduce​
-collect​
-
-first​
-take​
-
-saveAsObjectFile
-saveAsTextFile
-*/
