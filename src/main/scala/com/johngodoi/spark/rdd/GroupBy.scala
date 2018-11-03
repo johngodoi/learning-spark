@@ -1,4 +1,4 @@
-package com.johngodoi.spark
+package com.johngodoi.spark.rdd
 
 import org.apache.spark.{SparkConf, SparkContext}
 

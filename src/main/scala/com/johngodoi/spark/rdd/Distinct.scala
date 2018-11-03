@@ -1,6 +1,4 @@
-package com.johngodoi.spark
-
-import org.apache.spark.{SparkConf, SparkContext}
+package com.johngodoi.spark.rdd
 
 object Distinct extends App {
   val conf = new SparkConf().setAppName("initial").setMaster("local")

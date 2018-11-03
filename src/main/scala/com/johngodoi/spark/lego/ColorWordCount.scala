@@ -1,8 +1,8 @@
-package com.johngodoi.spark
+package com.johngodoi.spark.lego
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object WordCount extends App {
+object ColorWordCount extends App {
 
   val conf = new SparkConf().setAppName("initial").setMaster("local")
   val sc = new SparkContext(conf)

@@ -1,7 +1,4 @@
-package com.johngodoi.spark
-
-import org.apache.spark.rdd.RDD
-import org.apache.spark.{SparkConf, SparkContext}
+package com.johngodoi.spark.rdd
 
 object Join extends App {
 

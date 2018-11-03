@@ -1,6 +1,4 @@
-package com.johngodoi.spark
-
-import org.apache.spark.{SparkConf, SparkContext}
+package com.johngodoi.spark.rdd
 
 /**
   * Created by jgodoi on 5/11/2017.
