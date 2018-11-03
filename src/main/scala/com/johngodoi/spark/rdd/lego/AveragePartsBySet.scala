@@ -1,4 +1,4 @@
-package com.johngodoi.spark.lego
+package com.johngodoi.spark.rdd.lego
 
 import com.johngodoi.spark.utils.Utils
 import org.apache.spark.{SparkConf, SparkContext}
