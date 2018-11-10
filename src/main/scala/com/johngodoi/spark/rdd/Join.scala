@@ -1,5 +1,8 @@
 package com.johngodoi.spark.rdd
 
+import org.apache.spark.rdd.RDD
+import org.apache.spark.{SparkConf, SparkContext}
+
 object Join extends App {
 
   val conf = new SparkConf().setAppName("initial").setMaster("local")

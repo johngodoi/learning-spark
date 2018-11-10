@@ -1,5 +1,7 @@
 package com.johngodoi.spark.rdd
 
+import org.apache.spark.{SparkConf, SparkContext}
+
 object WholeTextFiles extends App {
   val conf = new SparkConf().setAppName("initial").setMaster("local")
   val sc = new SparkContext(conf)
